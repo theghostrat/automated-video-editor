@@ -1,16 +1,14 @@
 # Automated-video-editor
 
 
-Welcome to the Automated Video Editor repository! This is a cool tool that helps you edit your videos without needing to be a pro at video editing. If you've just started using GitHub, don't worry – we'll guide you through the basics.
-What is Automated Video Editor?
+Welcome to the repository for automated video editors! With the help of this fantastic program, you can edit your films without needing to be an expert. Don't worry if you're new to using GitHub; we'll walk you through the fundamentals. Automated Video Editor: What Is It?
 
-Automated Video Editor is a program that makes video editing simpler. It's like having a helper that can trim your videos, add smooth transitions, and even make shaky videos look steady.
-Getting Started
+A tool called Automated Video Editor makes editing videos easier. It's like having an assistant who can crop your videos, add seamless transitions, and even stabilize shaky videos. Getting Going
 
-Follow these steps to start using the Automated Video Editor:
+To begin utilizing the Automated Video Editor, follow these steps:
 
-Download the Code
-    
+Download the Project:
+
     git clone https://github.com/theghostrat/automated-video-editor
 
 Install Dependencies
