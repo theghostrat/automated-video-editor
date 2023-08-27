@@ -9,45 +9,26 @@ Getting Started
 
 Follow these steps to start using the Automated Video Editor:
 
-    Download the Code
+Download the Code
+    
+    git clone https://github.com/theghostrat/automated-video-editor
 
-    If you're new to GitHub, the "code" is the set of instructions that make the Automated Video Editor work. Click on the green "Code" button above, then select "Download ZIP." This will get you the code on your computer.
+Install Dependencies
 
-    Get Ready
+    pip install opencv-python moviepy
+    cd automated-video-editor
 
-    To run the Automated Video Editor, you need to have a special program on your computer called Python. If you don't have it, you can download it for free from python.org. During installation, make sure to check the box that says "Add Python to PATH."
-
-    Install Dependencies
-
-    Open the "Terminal" or "Command Prompt" on your computer. This is like a chat window where you can talk to your computer using text. Navigate to the folder where you downloaded the code using the cd command. For example:
-
-    bash
-
-cd path/to/automated-video-editor
-
-Then, type the following and press Enter:
-
-bash
-
-pip install -r requirements.txt
-
-This tells your computer to install the special tools the Automated Video Editor needs to work.
-
-Edit Your First Video!
-
-Still in the Terminal or Command Prompt, type a command like this:
-
-bash
+Usage:
 
     python video_editor.py input_video.mp4 output_video.mp4 --trim --transition fade --stabilize
 
     Replace input_video.mp4 with the name of your video file and output_video.mp4 with the name you want for your edited video.
 
-    You can use different options like --trim, --transition, and --stabilize to choose what the Automated Video Editor should do.
+You can use different options like --trim, --transition, and --stabilize to choose what the Automated Video Editor should do.
 
-    Find Your Edited Video
+Find Your Edited Video
 
-    After the script runs, your edited video will be saved as output_video.mp4 in the same folder where you have the code.
+After the script runs, your edited video will be saved as output_video.mp4 in the same folder where you have the code.
 
 Examples
 
